@@ -3,8 +3,10 @@
 
 # `run-p` command
 
-A CLI command to run given npm-scripts in parallel.
-This command is the shorthand of `npm-run-all -p`.
+* == CLI command /
+  * run PARALLEL given npm-scripts
+* == `npm-run-all -p`
+  * == PREVIOUS' shorthand
 
 ```
 Usage:
@@ -50,6 +52,7 @@ Examples:
 
 ### npm-scripts
 
+* TODO:
 It's `"scripts"` field of `package.json`.
 For example:
 
