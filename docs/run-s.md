@@ -3,8 +3,10 @@
 
 # `run-s` command
 
-A CLI command to run given npm-scripts sequentially.
-This command is the shorthand of `npm-run-all -s`.
+* == CLI command / 
+  * run SEQUENTIALLY given npm-scripts 
+* == `npm-run-all -s`
+  * == PREVIOUS' shorthand
 
 ```
 Usage:
