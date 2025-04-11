@@ -1,0 +1,20 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "echo1": "echo \"echo1\" && exit 1",
+    "echo2": "echo \"echo2\" && exit 1",
+    "echo3": "echo \"echo3\" && exit 1",
+    "runAll": "npm-run-all echo1 echo2 echo3",
+    "runAllWithoutLib": "npm run echo1 && npm run echo2 && npm run echo3",
+    "runAllContinueOnError": "npm-run-all --continue-on-error echo1 echo2 echo3"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "npm-run-all2": "^7.0.2"
+  }
+}
