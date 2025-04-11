@@ -6,3 +6,5 @@
 /test.js
 npm-debug.log
 package-lock.json
+/.idea
+/docs/examples/node_modules
